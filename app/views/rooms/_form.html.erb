@@ -1,0 +1,4 @@
+<%= simple_form_for @room do |form| %>
+  <%= form.input :name, label: t('room_name') %>
+  <%= form.submit t("save"), class: 'btn btn-success' %>
+<% end %>
